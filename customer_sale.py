@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 st.title("📊 Customer Sales Dashboard")
 
 # Load dataset
-data = pd.read_csv("customer_sale.csv")
+data = pd.read_csv("customer_sales.csv")
 
 # Preprocessing
 data['Purchase Date'] = pd.to_datetime(data['Purchase Date'], errors='coerce')
